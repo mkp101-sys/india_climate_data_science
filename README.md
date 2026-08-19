@@ -117,7 +117,6 @@ climate_phd_project/
 │   │   │   └── tmin_annual.csv
 │   │   └── climate_project_outputs_final_thesis_complete/
 │   │       ├── figures/                         # 16 publication-ready figures (140 DPI)
-│   │       ├── tables/                          # All result tables (CSV)
 │   │       ├── exports/                         # Excel workbooks
 │   │       └── configuration.json              # Run configuration snapshot
 │   │
@@ -126,7 +125,6 @@ climate_phd_project/
 │
 ├── 📊 outputs/
 │   ├── figures/
-│   ├── tables/
 │   └── exports/
 │
 ├── 🐍 src/
@@ -617,7 +615,6 @@ jupyter lab
 ```
 data/processed/climate_project_outputs_final_thesis_complete/
 ├── figures/     ← 16 publication-ready PNG figures (140 DPI)
-├── tables/      ← All result tables as CSV
 └── exports/     ← Excel workbooks with all tables
 ```
 
