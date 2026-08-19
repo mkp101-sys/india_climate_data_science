@@ -7,7 +7,7 @@
 [![XGBoost](https://img.shields.io/badge/XGBoost-✅-blue)](https://xgboost.readthedocs.io/)
 [![SHAP](https://img.shields.io/badge/SHAP-✅-orange)](https://shap.readthedocs.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-22c55e)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-PhD%20Complete-6366f1)]()
+[![Status](https://img.shields.io/badge/Status-M.Sc(AA)-6366f1)]()
 [![Years](https://img.shields.io/badge/Analysis-1950--2022-0ea5e9)]()
 
 ---
@@ -46,7 +46,7 @@
 
 ## 🌐 Overview
 
-This project presents a **PhD-level, end-to-end data science analysis** of India's climate system over **73 years (1950–2022)**. It integrates five major climate data streams — global surface temperature anomalies, India annual mean temperature, India monsoon rainfall, ENSO/ONI indices, and IMD gridded Tmax/Tmin NetCDF files — into a single, fully reproducible Jupyter notebook.
+This project presents a **end-to-end data science analysis** of India's climate system over **73 years (1950–2022)**. It integrates five major climate data streams — global surface temperature anomalies, India annual mean temperature, India monsoon rainfall, ENSO/ONI indices, and IMD gridded Tmax/Tmin NetCDF files — into a single, fully reproducible Jupyter notebook.
 
 The analysis covers statistical trend testing, dimensionality reduction, unsupervised clustering, supervised ML regression and classification, time-series forecasting, ENSO teleconnection analysis, and IMD diurnal temperature range decomposition — producing **16 publication-ready figures** and multiple result tables.
 
@@ -681,11 +681,11 @@ This project is licensed under the **MIT License** — see [LICENSE](LICENSE) fo
 - **NASA POWER** — Satellite-derived climate comparison data
 
 ---
+## Author
 
-## 📞 Contact
-
-For questions about the analysis or data, please open an Issue in the repository.
-
+**Maharshi K Patel**
+MSc Agriculture Analytics
+[LinkedIn](https://www.linkedin.com/in/maharshikpmk2002)
 ---
 
 <p align="center">
