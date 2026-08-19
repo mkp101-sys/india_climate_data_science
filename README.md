@@ -21,7 +21,6 @@
 - [Data Sources](#-data-sources)
 - [Environment & Packages](#-environment--packages)
 - [Global Constants](#-global-constants)
-- [Data Validation Results](#-data-validation-results)
 - [Annual Climate Series](#-annual-climate-series-raw-data)
 - [Feature Engineering](#-feature-engineering)
 - [Data Quality Summary](#-data-quality-summary)
@@ -53,14 +52,14 @@ The analysis covers statistical trend testing, dimensionality reduction, unsuper
 ---
 ## ✨ Why This Repository?
 
-This project converts research questions into measurable results. It produces validated datasets, statistical evidence, interpretable climate modes, benchmarked models, forecast tables, diagnostics, and publication-ready figures—making it suitable for a professional portfolio, thesis appendix, or reproducible research repository.
+This project converts research questions into measurable results. It produces validated datasets, statistical evidence, interpretable climate modes, benchmarked models, forecast tables, diagnostics, and publication ready figures making it suitable for a professional portfolio, thesis appendix, or reproducible research repository.
 ---
 
 ## 🎯 Research Objectives
 
-1. Quantify long-term trends in India temperature and monsoon rainfall (1950–2022) using Mann-Kendall tests and Sen's slope estimator.
+1. Quantify long term trends in India temperature and monsoon rainfall (1950–2022) using Mann Kendall tests and Sen's slope estimator.
 2. Decompose the multivariate climate system using PCA to identify dominant modes of variability.
-3. Cluster years into distinct climate regimes using K-Means and Agglomerative Clustering.
+3. Cluster years into distinct climate regimes using K Means and Agglomerative Clustering.
 4. Build and evaluate ML regression models (Ridge, Random Forest, XGBoost) to predict India's temperature anomaly using 46 lag/rolling features.
 5. Classify monsoon seasons as above/below normal using Logistic Regression with time-series cross-validation.
 6. Forecast India's temperature anomaly 10 years into the future (2023–2032) using ARIMA.
@@ -188,19 +187,6 @@ FIGURE_SIZE               = (12, 7)
 
 ---
 
-## ✅ Data Validation Results
-
-| # | Key | File | Exists |
-|---|---|---|---|
-| 0 | global_file | `data/processed/annual.csv` | ✅ True |
-| 1 | india_file | `data/processed/india_official.csv` | ✅ True |
-| 2 | rainfall_file | `data/processed/india_rainfall_annual.csv` | ✅ True |
-| 3 | imd_tmax_annual | `data/processed/imd_temperature_csv/tmax_annual.csv` | ✅ True |
-| 4 | imd_tmin_annual | `data/processed/imd_temperature_csv/tmin_annual.csv` | ✅ True |
-| 5 | oni_file | `data/external/oni.csv` | ✅ True |
-| 6 | rainfall_nc_count | 75 NetCDF files | ✅ True |
-
----
 
 ## 📊 Annual Climate Series (Raw Data)
 
@@ -310,7 +296,7 @@ For each of the 5 core variables, the following features are engineered — prod
 
 ## 📈 Trend Analysis — Full Results
 
-Mann-Kendall monotonic trend test + Sen's slope estimator for all 7 variables:
+Mann Kendall monotonic trend test + Sen's slope estimator for all 7 variables:
 
 | # | Variable | Trend | p-value | Kendall's τ | Sen's Slope/yr | Linear Slope/yr | Sig. 5%? | N |
 |---|---|---|---|---|---|---|---|---|
@@ -613,7 +599,7 @@ jupyter lab
 ### Step 6 — Find your outputs
 
 ```
-data/processed/climate_project_outputs_final_thesis_complete/
+data/output
 ├── figures/     ← 16 publication-ready PNG figures (140 DPI)
 └── exports/     ← Excel workbooks with all tables
 ```
