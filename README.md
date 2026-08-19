@@ -45,7 +45,7 @@
 
 ## 🌐 Overview
 
-This project presents a **end-to-end data science analysis** of India's climate system over **73 years (1950–2022)**. It integrates five major climate data streams — global surface temperature anomalies, India annual mean temperature, India monsoon rainfall, ENSO/ONI indices, and IMD gridded Tmax/Tmin NetCDF files — into a single, fully reproducible Jupyter notebook.
+This project presents a **end-to-end data science analysis** of India's climate system over **73 years (1950–2022)**. It integrates five major climate data streams - global surface temperature anomalies, India annual mean temperature, India monsoon rainfall, ENSO/ONI indices, and IMD gridded Tmax/Tmin NetCDF files — into a single, fully reproducible Jupyter notebook.
 
 The analysis covers statistical trend testing, dimensionality reduction, unsupervised clustering, supervised ML regression and classification, time-series forecasting, ENSO teleconnection analysis, and IMD diurnal temperature range decomposition — producing **16 publication-ready figures** and multiple result tables.
 
