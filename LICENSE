@@ -1,0 +1,91 @@
+MIT License
+
+Copyright (c) 2026 Maharshi K Patel
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+PROJECT-SPECIFIC TERMS AND ATTRIBUTION
+
+1. Project scope
+
+This license applies to the original source code, notebook code, scripts,
+configuration files, documentation, figures created by the project, and other
+original materials in this repository, unless a file states otherwise.
+
+2. Third-party data and materials
+
+The repository may contain, reference, or process datasets and materials
+provided by third parties, including NASA GISTEMP, the India Meteorological
+Department (IMD), NOAA Climate Prediction Center ONI data, NASA POWER, and
+other external sources. Those materials are not relicensed by this MIT License.
+Users must review and comply with the original provider's terms, licenses,
+usage restrictions, citation requirements, and redistribution policies before
+copying, publishing, or redistributing third-party data.
+
+3. Third-party software
+
+The project uses open-source Python packages, including NumPy, pandas, SciPy,
+Matplotlib, Seaborn, scikit-learn, statsmodels, XGBoost, SHAP, pymannkendall,
+xarray, netCDF4, openpyxl, Jupyter, and related dependencies. Each dependency
+remains subject to its own license. Nothing in this file grants rights beyond
+those provided by the applicable dependency license.
+
+4. Research and attribution
+
+If this repository, its code, figures, tables, or derived results are used in
+academic work, publications, presentations, teaching materials, or public
+reports, users are requested to acknowledge the project and cite the relevant
+underlying data providers. A suggested acknowledgement is:
+
+"This work uses the India Climate Data Science project by Maharshi K Patel,
+including its reproducible climate-data analysis, statistical methods,
+machine-learning workflow, and forecasting outputs. Underlying data sources
+include NASA GISTEMP, the India Meteorological Department, NOAA Climate
+Prediction Center ONI data, NASA POWER, and other sources identified in the
+repository documentation."
+
+5. Results and interpretation
+
+The analyses, forecasts, figures, and model outputs are provided for research,
+educational, and exploratory purposes. They are not climate-policy advice,
+operational forecasts, emergency guidance, financial advice, or a substitute
+for official meteorological information. Users are responsible for validating
+inputs, methods, assumptions, and results before relying on them.
+
+6. No warranty for data-derived outputs
+
+The MIT warranty disclaimer applies to the original software. Because the
+project processes external data and uses statistical and machine-learning
+models, the author makes no guarantee that any generated table, figure,
+forecast, classification, or interpretation is complete, current, error-free,
+or suitable for a particular purpose.
+
+7. Changes and derivatives
+
+Modified versions and derivative works may be distributed under different
+terms, provided that the original copyright notice and applicable license
+notice are preserved and changes are clearly identified. Users should retain
+attribution to the original project when distributing substantial derivatives.
+
+8. Contact
+
+Author: Maharshi K Patel
+Field: MSc Agriculture Analytics
+LinkedIn: https://www.linkedin.com/in/maharshikpmk2002
